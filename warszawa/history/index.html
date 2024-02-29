@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Poland's cities - Warszawa - basic information</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+</head>
+<body>
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close &times;</button>
+  <a href="/" class="w3-bar-item w3-button">Home</a>
+  <a href="/warszawa" class="w3-bar-item w3-button">Warszawa</a>
+</div>
+
+<div id="main">
+  
+<div class="w3-blue">
+  <button id="openNav" class="w3-button w3-blue w3-xlarge" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+    <h1>Warszawa - basic information</h1>
+  </div>
+</div>
+  <br>
+  <div class="w3-panel w3-pale-yellow w3-border">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/PL_road_sign_A-14.svg/1024px-PL_road_sign_A-14.svg.png" alt="Work in progress" width="110" height="100">
+   <h3>Note!</h3>
+   <p>This page is still work in progress.</p>
+  </div>
+ <h3>History: (<a href="https://en.wikipedia.org/wiki/Warsaw#History">source</a>)</h3>
+  <ul>
+    <li>There were settlements in the today's Warsaw area already in the 9th century, around Bródno area.</li>
+    <li>There used to be a small fishing village in the area, called Warszowa.</li>
+    <li>The modern-day city was estabilished in about 1300 by Bolesław II.</li>
+    <li>Warszawa became the capital of the Masovian Duchy in 1413.</li>
+    <li>In 1526 Warszawa became a part of the Kingdom of Poland after the sudden death of Duke Janusz III.</li>
+    <li>In 1529 Warszawa became the seat of a General Sejm for the first time ever and held that privilege permanently from 1569.</li>
+    <li>Warszawa became the capital of Poland in 1611. That year Zygmunt III Waza moved permanently to the Royal Castle in Warszawa.</li>
+    <li>Between 1655 and 1658 the city was besieged and pillaged by the Swedish, Brandenburgian and Transylvanian forces.</li>
+    <li>In 1815, after Napoleon's defeat and exile Warszawa became a part of Congress Poland, which belonged to Imperial Russia.</li>
+    <li>Warszawa was occupied by Germany during World War I, between 4th of August, 1915 and November, 1918.</li>
+    <li>During the Polish-Soviet war (which started in 1919 and ended in 1921) the 1920 Battle of Warsaw took place, which was successful for Poland.</li>
+    <li>In 1921 Warszawa was very densely populated, with over 8000 people living per square kilometre. At the time Warszawa had an area of around 124,7km2 and a population of one million.</li>
+    <li>After the German invasion of Poland on 1st of September, 1939 (which started World War II) Warszawa was defended until 27th of September, 1939. Central Poland (which included Warszawa) came under the Nazi Germany ruling, to be exact under General Government which was an area occupied by Nazi Germany.</li>
+    <li>The Warszawa Ghetto Uprising took place on 19th of April, 1943 after Hitler's "Final Solution" plan was started.</li>
+    <li>On 1st of August, 1944 the Warszawa Uprising started by the Home Army (Armia Krajowa) as an attempt to liberate Warszawa from Germans before the arrival of Red Army. It went on for 63 days.</li>
+    <li>On 17th of January, 1945 the Red Army entered the ruins of Warszawa and liberated Warszawa's suburbs from German occupation.</li>
+    <li>During World War II 85% of all buildings in Warszawa have been destroyed.</li>
+    <li>The "Bricks for Warszawa" campaign was started after World War II and large prefabricated housing projects were erected in Warszawa to address the major housing shortage.</li>
+    <li>The Palace of Culture and Science was opened in Warszawa in 1955. Initially, it was named Joseph Stalin's Palace of Culture and Science but the "Joseph Stalin's" part was removed a bit later.</li>
+    <li>The Warsaw Metro was opened on 7th of April, 1995.</li>
+    <li>Warsaw has received 180 thousand refugees from Ukraine as of August 2022 due to the 2022 Russian invasion of Ukraine.</li>
+  </ul>
+</div>
+ <script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+</body>
+</html>
