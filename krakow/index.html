@@ -6,10 +6,20 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
 </head>
 <body>
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close &times;</button>
+  <a href="/" class="w3-bar-item w3-button">Home</a>
+</div>
+
+<div id="main">
+  
+<div class="w3-blue">
+  <button id="openNav" class="w3-button w3-blue w3-xlarge" onclick="w3_open()">&#9776;</button>
   <div class="w3-container">
-   <a href="/" class="w3-button w3-black">Home</a>
+    <h1>Warszawa</h1>
   </div>
-  <br>
+</div>
   <div class="w3-panel w3-pale-yellow w3-border">
    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/PL_road_sign_A-14.svg/1024px-PL_road_sign_A-14.svg.png" alt="Work in progress" width="110" height="100">
    <h3>Note!</h3>
@@ -22,3 +32,4 @@
   <ul>
     <li>Kraków has a population of 804 282 as of 30th of June, 2023 (<a href="https://stat.gov.pl/obszary-tematyczne/ludnosc/ludnosc/powierzchnia-i-ludnosc-w-przekroju-terytorialnym-w-2023-roku,7,20.html">source</a>).</li>
   </ul>
+</div>
